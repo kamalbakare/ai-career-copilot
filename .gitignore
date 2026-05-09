@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+>>>>>>> 950ac4f3f2b131ab6ffb4cfaa5c9a105315cddfd
 # dependencies
 /node_modules
 /.pnp
@@ -26,10 +31,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 pnpm-debug.log*
 
 # env files
 .env*.local
+=======
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+>>>>>>> 950ac4f3f2b131ab6ffb4cfaa5c9a105315cddfd
 
 # typescript
 *.tsbuildinfo
